@@ -1,0 +1,79 @@
+#section-input {
+  margin-top: 48px;
+
+  &:first-child {
+    margin-bottom: 64px;
+  }
+
+  .head {
+    padding: 20px 36px;
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000;
+    margin-bottom: 0;
+  }
+
+  .text {
+    padding: 24px 36px;
+    font-size: 36px;
+    line-height: 45px;
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+  }
+
+  .input-block {
+    padding: 40px 36px;
+  }
+
+  .button-gray {
+    margin-top: 32px;
+    padding: 15px 75px;
+    border: 1px solid transparent;
+
+    &:hover {
+      border: 1px solid #5077FE;
+    }
+  }
+
+  .btn-2 {
+    padding: 15px 42px;
+  }
+
+  input {
+    padding: 8px 16px;
+    outline: none;
+    background: #FFF;
+    border: 1px solid #5077FE;
+    width: calc(100% / 2 - 12px);
+
+    &:not(:first-child) {
+      margin-left: 20px;
+    }
+
+    &::placeholder {
+      font-size: 18px;
+      line-height: 27px;
+      color: #333333;
+      opacity: 1;
+    }
+  }
+
+  .input-name {
+    margin-right: 20px;
+  }
+
+  .data {
+    padding: 8px 16px;
+    outline: none;
+    background: #FFF;
+    border: 1px solid #5077FE;
+    width: 100%;
+
+    &::placeholder {
+      font-size: 18px;
+      line-height: 27px;
+      color: #333333;
+    }
+  }
+}
