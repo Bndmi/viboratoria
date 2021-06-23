@@ -1,0 +1,159 @@
+#section-team {
+  margin-top: 48px;
+
+  .text-pic-container {
+    justify-content: space-between;
+  }
+
+  .text-pic {
+    display: inline-block;
+    max-width: 185px;
+  }
+
+  .pic-staff {
+    display: block;
+    width: 100%;
+  }
+
+  .text-block {
+    padding: 40px 40px;
+    margin: auto 0;
+
+    h3 {
+      margin-bottom: 16px;
+    }
+  }
+
+  .staff {
+    display: block;
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 0;
+    margin-top: 16px;
+  }
+
+  .text-team {
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 0;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000;
+    margin: 0;
+    padding: 20px 36px;
+  }
+
+  .top-team-block {
+    padding: 32px 36px 36px 36px;
+  }
+
+  .our-block {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  h3 {
+    margin-bottom: 24px;
+    font-size: 35px;
+    line-height: 45px;
+    color: #333333;
+  }
+}
+
+#section-progress {
+  margin-top: 48px;
+
+  h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000;
+    margin: 0;
+    padding: 20px 36px;
+  }
+
+  .text-up {
+    font-weight: bold;
+    font-size: 144px;
+    line-height: 1;
+    color: #5077FE;
+    text-align: center;
+    margin: 0;
+  }
+
+  .text-down {
+    font-size: 36px;
+    line-height: 45px;
+    text-align: center;
+    color: #5077FE;
+    margin: 0;
+  }
+
+  .progress-block {
+    padding: 32px;
+    height: 100%;
+  }
+}
+
+#section-souvenirs {
+  padding-top: 48px;
+
+  h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000000;
+  }
+
+  .card-block {
+    border: 1px solid #5077FE;
+    margin-top: 20px;
+  }
+
+  .card-set {
+    padding: 64px 86px;
+  }
+
+  .text-heading {
+    font-size: 36px;
+    line-height: 45px;
+    color: #000;
+    margin-bottom: 16px;
+  }
+
+  .text-souvenirs {
+    font-size: 18px;
+    line-height: 27px;
+    color: #333333;
+    margin-bottom: 48px;
+  }
+
+  .swiper-container {
+    padding-bottom: 46px;
+
+    .swiper-pagination-bullet {
+      width: 18px;
+      height: 18px;
+      background: #5077FE;
+    }
+
+    .swiper-pagination-bullet-active {
+      background: #5077FE;
+    }
+  }
+
+  .swiper-container-horizontal>.swiper-pagination-bullets {
+    bottom: 0;
+
+    .swiper-pagination-bullet {
+      margin: 0 8px;
+    }
+  }
+}
