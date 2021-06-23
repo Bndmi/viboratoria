@@ -1,0 +1,108 @@
+#section-contacts {
+  margin-top: 48px;
+
+  input,
+  textarea {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 18px;
+    background: #FFF;
+    border: 1px solid #5077FE;
+    width: 100%;
+    outline: none;
+
+    &::placeholder {
+      font-size: 18px;
+      line-height: 30px;
+      color: #000;
+      opacity: 1;
+    }
+  }
+
+  textarea {
+    max-height: 180px;
+  }
+
+  .button-gray {
+    margin: 24px;
+    border: 1px solid transparent;
+
+    &:hover {
+      border: 1px solid #5077FE;
+    }
+  }
+
+  .text-container {
+    background: #5077FE;
+    border: 1px solid #F8F8F9;
+  }
+
+  h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000;
+    padding: 20px 36px;
+    margin: 0;
+  }
+
+  h3 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000;
+    padding: 20px;
+    margin: 0;
+  }
+
+  .contact {
+    font-size: 36px;
+    line-height: 45px;
+    color: #000;
+    text-decoration: none;
+    padding: 28px 36px;
+    display: block;
+    transition: all .3s;
+
+    &:hover {
+      color: #FFF;
+      text-decoration: underline;
+    }
+  }
+}
+
+#section-map {
+  margin-top: 48px;
+
+  .map {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .block-map {
+    position: absolute;
+    top: 212px;
+    left: 135px;
+    background: #FFF;
+    padding: 64px 40px;
+  }
+
+  .text-map {
+    font-weight: bold;
+    font-size: 56px;
+    line-height: 80px;
+    color: #000;
+    margin-bottom: 45px;
+  }
+
+  .button-gray {
+    display: inline-block;
+    border: 1px solid transparent;
+
+    &:hover {
+      border: 1px solid #5077FE;
+    }
+  }
+}
