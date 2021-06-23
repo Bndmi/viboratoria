@@ -1,0 +1,57 @@
+#section-cafe {
+  margin-top: 48px;
+
+  .btn-block {
+    position: absolute;
+    z-index: 100;
+    bottom: 78px;
+    width: calc(100% - var(--bs-gutter-x));
+    text-align: center;
+  }
+
+  .btn {
+    background: #F2F2F2;
+    border: 1px solid #5077FE;
+    border-radius: 6px;
+    padding: 15px 91px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 25px;
+    align-items: center;
+    color: #5077FE;
+    text-decoration: none;
+    transition: all .3s;
+
+    &:hover {
+      background: #5077FE;
+      color: #fff;
+    }
+  }
+}
+
+
+#section-menu {
+  padding-top: 48px;
+
+  h2 {
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 60px;
+    color: #000;
+    margin-bottom: 0;
+    padding: 20px 36px;
+  }
+
+  .card-block {
+    border: 1px solid #5077FE;
+    border-top: none;
+    display: block;
+    text-align: center;
+    border-right: none;
+  }
+
+  .button-gray {
+    display: block;
+    margin: 32px auto;
+  }
+}
