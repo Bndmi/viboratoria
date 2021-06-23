@@ -1,0 +1,275 @@
+@media only screen and (max-width: 1619px),
+only screen and (max-device-width: 1619px) {
+  #section-souvenirs .card-set {
+    padding: 62px;
+  }
+}
+
+@media only screen and (max-width: 1469px),
+only screen and (max-device-width: 1469px) {
+  #section-tariffs .card-text-block {
+    padding: 80px;
+  }
+
+  #section-souvenirs .card-set {
+    padding: 30px;
+  }
+}
+
+@media only screen and (max-width: 1369px),
+only screen and (max-device-width: 1369px) {
+  #section-conferences .img-block {
+    margin-left: unset;
+
+    img {
+      width: 100%;
+    }
+  }
+
+  #section-souvenirs {
+    .block-pic {
+      width: 100%;
+    }
+  }
+}
+
+@media only screen and (max-width: 1269px),
+only screen and (max-device-width: 1269px) {
+  #section-tariffs .card-text-block {
+    padding: 60px;
+  }
+
+  #section-conferences .nav-tabs .nav-item {
+    border-right: 1px solid #5077FE;
+
+    &:not(:nth-child(even)) {
+      border-top: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 1199px),
+only screen and (max-device-width: 1199px) {
+  .border-top-xl-off {
+    border-top: none !important;
+  }
+
+  .border-bottom-xl-off {
+    border-bottom: none !important;
+  }
+
+  #section-tariffs .card-text-block {
+    padding: 36px;
+  }
+
+  #section-about-us {
+    .border-block-vertical {
+      border-right: 1px solid #5077FE !important;
+      border-left: 1px solid #5077FE !important;
+      border-top: none;
+      border-bottom: none;
+    }
+  }
+
+  #section-work .text-block {
+    padding: 0 60px;
+  }
+
+  #section-contacts textarea {
+    max-height: 225px;
+  }
+
+  #section-progress {
+    .border-right-off {
+      border-right: 1px solid #5077FE !important;
+    }
+
+    .border-left-off {
+      border-left: 1px solid #5077FE !important;
+    }
+  }
+}
+
+@media only screen and (max-width: 1049px),
+only screen and (max-device-width: 1049px) {
+  header nav .container-absolute .header-content {
+
+    .flex.menu-block,
+    .flex.phone-block {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (max-width: 991px),
+only screen and (max-device-width: 991px) {
+
+  .border-top-lg-off {
+    border-top: none !important;
+  }
+
+  .border-bottom-lg-off {
+    border-bottom: none !important;
+  }
+
+  #section-tariffs {
+    .block-pic {
+      max-width: unset;
+    }
+
+    .card-img-block,
+    .border-top-off,
+    .border-right-off,
+    .border-bottom-off,
+    .border-left-off {
+      border: 1px solid #5077FE !important;
+    }
+  }
+
+  #section-work .text-block {
+    padding: 0 20px;
+  }
+
+  #section-menu {
+    .block-pic {
+      width: 100%;
+    }
+  }
+
+  #section-menu,
+  #section-team,
+  #section-input {
+
+    .border-right-off {
+      border-right: 1px solid #5077FE !important;
+    }
+
+    .border-left-off {
+      border-left: 1px solid #5077FE !important;
+    }
+  }
+
+  #section-input .button-gray {
+    margin-left: 36px;
+  }
+
+}
+
+@media only screen and (max-width: 859px),
+only screen and (max-device-width: 859px) {
+  #section-conferences .nav-tabs .nav-item {
+    border-left: 1px solid #5077FE;
+
+    &:not(:first-child) {
+      border-top: none;
+    }
+  }
+
+  #section-work .text-block {
+    padding: 0 8px;
+  }
+}
+
+@media only screen and (max-width: 767px),
+only screen and (max-device-width: 767px) {
+  .border-top-md-off {
+    border-top: none !important;
+  }
+
+
+  #section-promotion {
+    .border-right-off {
+      border-right: 1px solid #5077FE !important;
+    }
+  }
+
+  #section-work {
+
+    .border-top-off,
+    .border-right-off,
+    .border-bottom-off,
+    .border-left-off,
+    .block-pic {
+      border: 1px solid #5077FE !important;
+    }
+
+    .block-pic {
+      border-bottom: none !important;
+    }
+
+    .text-block {
+      padding: 32px;
+    }
+  }
+
+
+  #section-map .block-map {
+    position: initial;
+    padding: 0px 40px 64px 40px;
+  }
+}
+
+@media only screen and (max-width: 575px),
+only screen and (max-device-width: 575px) {
+  #section-conferences .time {
+    font-size: 114px;
+    line-height: 1.5;
+  }
+
+  #section-contacts .contact {
+    font-size: 28px;
+    line-height: 1.5;
+  }
+
+  #section-cafe .btn-block {
+    bottom: 50%;
+    transform: translateY(50%);
+
+    .btn {
+      padding: 15px 45px;
+    }
+  }
+
+  #section-map .text-map {
+    font-size: 42px;
+    line-height: 1.5;
+    margin-bottom: 24px;
+  }
+}
+
+
+@media only screen and (max-width: 424px),
+only screen and (max-device-width: 424px) {
+  header .logo {
+    font-size: 36px;
+  }
+
+  #section-conferences {
+    .nav-tabs .nav-item {
+      min-width: unset;
+    }
+
+    .date {
+      font-size: 114px;
+    }
+
+    .time {
+      font-size: 92px;
+      line-height: 1.5;
+    }
+  }
+
+  #section-input input {
+    width: 100%;
+
+    &:not(:first-child) {
+      margin-left: 0;
+      margin-top: 20px;
+    }
+  }
+
+  #section-team .text-pic {
+    width: 100%;
+    max-width: unset;
+  }
+}
