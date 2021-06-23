@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+  <link href="./css/style.css" rel="stylesheet">
+  <title>Выборатория</title>
+</head>
+
+<body>
+  <header>
+    <nav>
+      <div class="container-absolute">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-12">
+              <div class="header-content">
+                <div class="flex">
+                  <a class="logo" href="/">ВЫБОРАТОРИЯ</a>
+                </div>
+                <div class="flex menu-block">
+                  <ul>
+                    <li><a href="contacts.html">контакты</a></li>
+                    <li><a href="team.html">о нас</a></li>
+                    <li><a href="events.html">события</a></li>
+                    <li><a href="cafe.html">кафе</a></li>
+                  </ul>
+                </div>
+                <div class="flex phone-block">
+                  <a href="main.html" class="button-results">результаты</a>
+                  <a href="main.html" class="button-record">запись</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <div class="button_container" id="toggle_menu">
+      <span class="top"></span>
+      <span class="middle"></span>
+      <span class="bottom"></span>
+    </div>
+    <div class="overlay" id="overlay">
+      <nav class="overlay-menu">
+        <ul>
+          <li><a href="contacts.html">контакты</a></li>
+          <li><a href="team.html">о нас</a></li>
+          <li><a href="events.html">события</a></li>
+          <li><a href="cafe.html">кафе</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="section-conferences">
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-12">
+          <div class="block-container">
+            <div class="text-container">
+              <h2>Предстоящие конференции летом 2021</h2>
+              <p class="conferences">Выберите мероприятие, чтобы узнать о нём подробнее</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-12">
+          <ul class="nav nav-tabs" id="myTab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="lectures-one-tab" data-bs-toggle="tab" data-bs-target="#lectures-one"
+                href="#lectures-one">
+                <p class="date">21/VI</p>
+                <p class="name">Курица или яйцо?</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="lectures-two-tab" data-bs-toggle="tab" data-bs-target="#lectures-two"
+                href="#lectures-two">
+                <p class="date">21/VII</p>
+                <p class="name">Мутации полезны?</p>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="lectures-three-tab" data-bs-toggle="tab" data-bs-target="#lectures-three"
+                href="#lectures-three">
+                <p class="date">21/VIII</p>
+                <p class="name">Быть или не быть?</p>
+              </a>
+            </li>
+          </ul>
+
+          <div class="tab-content" id="myTabContent">
+            <div class="tab-pane fade show active" id="lectures-one">
+              <div class="border-block">
+                <p class="head">Курица или яйцо?</p>
+              </div>
+              <div class="border-block border-top-off">
+                <p class="text-tab">Лекция о теории эволюции с Чарльзом Дарвиным</p>
+              </div>
+              <div class="border-block border-top-off">
+                <div class="block-content">
+                  <div class="text-block">
+                    <p class="time">21/VI в 11:00</p>
+                    <p class="timetable">11:00-11:30 Знакомство с лектором</p>
+                    <p class="timetable">11:30-12:30 Лекция о теории эволюции</p>
+                    <p class="timetable">12.30-13.00 Перерыв</p>
+                    <p class="timetable">13:30-14:30 Продолжение лекции</p>
+                    <p class="timetable">14:30-15:00 Вопросы</p>
+                    <p class="place">Лекция пройдёт по адресу Москва, ул. Выборная 1, 3 этаж </p>
+                  </div>
+                  <div class="img-block">
+                    <img class="block-pic" src="./images/lectures-picture.jpg" alt="lectures-picture.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="lectures-two">
+              <div class="border-block">
+                <p class="head">Мутации полезны?</p>
+              </div>
+              <div class="border-block border-top-off">
+                <p class="text-tab">Лекция о влиянии мутаций с Хуго де Фриз</p>
+              </div>
+              <div class="border-block border-top-off">
+                <div class="block-content">
+                  <div class="text-block">
+                    <p class="time">21/VII в 11:00</p>
+                    <p class="timetable">11:00-11:30 Знакомство с лектором</p>
+                    <p class="timetable">11:30-12:30 Лекция о теории эволюции</p>
+                    <p class="timetable">12.30-13.00 Перерыв</p>
+                    <p class="timetable">13:30-14:30 Продолжение лекции</p>
+                    <p class="timetable">14:30-15:00 Вопросы</p>
+                    <p class="place">Лекция пройдёт по адресу Москва, ул. Выборная 1, 3 этаж </p>
+                  </div>
+                  <div class="img-block">
+                    <img class="block-pic" src="./images/lectures-picture2.jpg" alt="lectures-picture2.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="tab-pane fade" id="lectures-three">
+              <div class="border-block">
+                <p class="head">Быть или не быть?</p>
+              </div>
+              <div class="border-block border-top-off">
+                <p class="text-tab">Лекция о вечных вопросах с Уильямом Шекспиром</p>
+              </div>
+              <div class="border-block border-top-off">
+                <div class="block-content">
+                  <div class="text-block">
+                    <p class="time">21/VIII в 11:00</p>
+                    <p class="timetable">11:00-11:30 Знакомство с лектором</p>
+                    <p class="timetable">11:30-12:30 Лекция о теории эволюции</p>
+                    <p class="timetable">12.30-13.00 Перерыв</p>
+                    <p class="timetable">13:30-14:30 Продолжение лекции</p>
+                    <p class="timetable">14:30-15:00 Вопросы</p>
+                    <p class="place">Лекция пройдёт по адресу Москва, ул. Выборная 1, 3 этаж </p>
+                  </div>
+                  <div class="img-block">
+                    <img class="block-pic" src="./images/lectures-picture3.jpg" alt="lectures-picture3.jpg">
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="section-promotion">
+    <div class="container-fluid">
+      <div class="border-block border-bottom-off">
+        <p class="head">Актуальные акции</p>
+      </div>
+      <div class="row gx-0">
+        <div class="col-md-6">
+          <div class="border-block border-right-off">
+            <img class="block-pic" src="./images/promotion.jpg" alt="lectures-promotion.jpg">
+          </div>
+          <div class="border-block d-flex border-top-off border-right-off">
+            <a href="#" class="button-gray">запись</a>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="border-block border-top-md-off dh-1">
+            <img class="block-pic" src="./images/stock.jpg" alt="stock.jpg">
+          </div>
+          <div class="border-block d-flex border-top-off">
+            <a href="#" class="button-gray">запись</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <div class="block-icons">
+            <a href="https://www.instagram.com/" class="icons">
+              <img src="./images/icons/instagram.svg" alt="instagram.svg">
+            </a>
+            <a href="https://www.facebook.com/" class="icons">
+              <img src="./images/icons/facebook.svg" alt="facebook.svg">
+            </a>
+            <a href="https://www.tiktok.com/ru-RU/" class="icons">
+              <img src="./images/icons/tik-tok.svg" alt="tik-tok.svg">
+            </a>
+          </div>
+          <p class="network">соцсети</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+  <script src="https://unpkg.com/jquery@3.6.0/dist/jquery.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous">
+  </script>
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
